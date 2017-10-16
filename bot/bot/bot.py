@@ -22,7 +22,7 @@ def switch_chat_id(message):
         global chat_id
         chat_id=int(str[1])
         bot.reply_to(message, "Переход в чат №"+str[1])
-        bot.send_message(chat_id,"Оператор зашел в ваш чат")
+        bot.send_message(chat_id,"Оператор зашел в ваш чатт")
 
 
 @bot.message_handler(content_types=["text"])
